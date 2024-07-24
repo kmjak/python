@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- よく使う機能　form編 -->
+  <!-- form: フォーム -->
+  <form>
+    <!-- input: テキストボックス -->
+    <p><input type="text" name="text" value="テキストボックス"></p>
+    <!-- input: パスワード -->
+    <p><input type="password" name="password" value="パスワード"></p>
+    <!-- input: チェックボックス -->
+    <p><input type="checkbox" name="checkbox" value="チェックボックス">チェックボックス</p>
+    <!-- input: ラジオボタン -->
+    <p><input type="radio" name="radio" value="ラジオボタン">ラジオボタン</p>
+    <!-- input: ボタン -->
+    <p><input type="button" value="ボタン"></p>
+    <!-- input: サブミットボタン -->
+    <p><input type="submit" value="サブミットボタン"></p>
+    <!-- input: リセットボタン -->
+    <p><input type="reset" value="リセットボタン"></p>
+    <!-- input: ファイル -->
+    <p><input type="file" name="file"></p>
+    <!-- input: 隠しフォーム -->
+    <p><input type="hidden" name="hidden" value="隠しフォーム"></p>
+    <!-- input: 日付 -->
+    <p><input type="date" name="date"></p>
+    <!-- input: 時間 -->
+    <p><input type="time" name="time"></p>
+    <!-- input: メールアドレス -->
+    <p><input type="email" name="email"></p>
+    <!-- input: URL -->
+    <p><input type="url" name="url"></p>
+    <!-- input: 数値 -->
+    <p><input type="number" name="number"></p>
+    <!-- input: カラー -->
+    <p><input type="color" name="color"></p>
+    <!-- input: テキストエリア -->
+    <p><textarea name="textarea">テキストエリア</textarea></p>
+    <!-- select: プルダウンメニュー -->
+    <p>
+      <select name="select">
+        <option value="プルダウン1">プルダウン1</option>
+        <option value="プルダウン2">プルダウン2</option>
+        <option value="プルダウン3">プルダウン3</option>
+      </select>
+    </p>
+    <!-- select: リストボックス -->
+    <p>
+      <select name="listbox" size="3">
+        <option value="リストボックス1">リストボックス1</option>
+        <option value="リストボックス2">リストボックス2</option>
+        <option value="リストボックス3">リストボックス3</option>
+      </select>
+    </p>
+    <!-- fieldset: フォームの枠 -->
+    <fieldset>
+      <legend>フォームの枠</legend>
+      <p><input type="text" name="text" value="テキストボックス"></p>
+      <p><input type="password" name="password" value="パスワード"></p>
+    </fieldset>
+  </form>
+  <hr>
+  <!-- label機能 -->
+  <form>
+    <!-- ラベルで括る使いかた -->
+    <p><label>ラベル1<input type="text"></label></p>
+    <!-- idを使ってラベルと紐づける -->
+    <p><label for="label">ラベル2</label>
+      <input type="text" id="label">
+    </p>
+  </form>
+  <hr>
+  <!-- この中でもよく使うもの -->
+   <form>
+      <p>
+        <label>text<input type="text"></label>
+      </p>
+      <p>
+        <label>password<input type="password"></label>
+      </p>
+      <p>
+        <label>checkbox<input type="checkbox"></label>
+      </p>
+      <p>
+        <label>
+          <select>
+            <option>option1</option>
+            <option>option2</option>
+            <option>option3</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <input type="submit" value="submit-btn">
+      </p>
+      <p>
+        <button type="submit">submit-btn</button>
+      </p>
+      <p>
+        <label>
+          email<input type="email">
+        </label>
+      </p>
+   </form>
+</body>
+</html>
